@@ -31,4 +31,4 @@ permalink:      /:year-:month-:day/:title
 paginate:       5
 
 # Excludes
-exclude: [ Gemfile, Gemfile.lock ]
+exclude: [ Gemfile, Gemfile.lock, config.ru, Procfile ]
