@@ -1,17 +1,15 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
-
-# Google Analytics
-google_analytics: UA—XXXXXXXX-X
+title:          "notes to self"
+description:    "A smörgåsbord of programming, computer graphics, linux and \
+                 web dev musings by Matthew Chigira. \
+                 My venerable \"notes to self\"."
+baseurl:        ""
+url:            "https://nts.chigira.me"
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Matthew Chigira
+  url:          https://nts.chigira.me
 
 # Build settings
 markdown:       kramdown
@@ -27,15 +25,10 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:       5
 
 # Excludes
-exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
-
-# Disqus (Set to your disqus id)
-disqus:         jekyll-tale
+exclude: [ Gemfile, Gemfile.lock ]
